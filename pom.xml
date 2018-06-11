@@ -67,18 +67,18 @@
 	</build>
 	<distributionManagement>
 	<repository>
-		<id>deploymentRepo</id>
+		<id>deployrepo</id>
 		<name>Internal Releases</name>
-		<url>http://<nexus-ip>:8081/repository/maven-releases/</url>
+		<url>http://35.190.175.167:8081/repository/deployrepo/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deploymentRepo</id>
+		<id>snapshot1</id>
 		<name>Internal Releases</name>
-		<url>http://<nexus-ip>:8081/repository/maven-snapshots/</url>
+		<url>http://35.190.175.167:8081/repository/snapshot1/</url>
 	</snapshotRepository>
 </distributionManagement>
 
-
+												
 
 </project>
