@@ -68,13 +68,13 @@
 	<distributionManagement>
 	<repository>
 		<id>deployrepo</id>
-		<name>Internal Releases</name>
+		<name>Releases</name>
 		<url>http://35.190.175.167:8081/repository/deployrepo/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>snapshot1</id>
-		<name>Internal Releases</name>
+		<name>Releases</name>
 		<url>http://35.190.175.167:8081/repository/snapshot1/</url>
 	</snapshotRepository>
 </distributionManagement>
