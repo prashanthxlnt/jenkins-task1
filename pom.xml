@@ -68,14 +68,14 @@
 	<distributionManagement>
 	<repository>
 		<id>deploymentRepo</id>
-		<name>deployrepo</name>
-		<url>http://35.190.175.167:8081/repository/deployrepo/</url>
+		<name>maven-releases</name>
+		<url>http://35.185.97.88:8081/repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deploymentRepo</id>
-		<name>snapshot1</name>
-		<url>http://35.190.175.167:8081/repository/snapshot1/</url>
+		<id>maven-snapshots</id>
+		<name>maven-snapshots</name>
+		<url>http://35.185.97.88:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 </distributionManagement>
 
